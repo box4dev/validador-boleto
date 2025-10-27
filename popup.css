@@ -175,7 +175,8 @@ input {
 .footer:hover .floating-text{
   visibility: visible;
 }
-/* 
+
+/*
 @keyframes aparecer {
   from {
       visibility: hidden;
@@ -185,6 +186,7 @@ input {
   }
 }
  */
+
 .fld-label {
   position: absolute;
   left: 10px;
@@ -424,4 +426,19 @@ button:hover {
   letter-spacing: 0.00625rem;
   line-height: 1.33333333;
   cursor: pointer;
+}
+
+
+.vb-link,
+.vb-link:visited {
+  color: var(--joc-footer-text);
+  text-decoration: none;
+  outline: none;
+}
+
+.vb-link:focus,
+.vb-link:active,
+.vb-link:hover {
+  outline: none;
+  box-shadow: none;
 }
